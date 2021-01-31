@@ -1,6 +1,7 @@
 # ICTester
 
 IC Tester for the classic CMOS and TLL ICs with Touch Display
+
 **Beware 5V ICs only!**
 
 GPL v3 License - Open Hard- and Software
@@ -70,14 +71,16 @@ If you like it please leave a ⭐!
 - Make sure the ZIF socket lever is up
 - Insert IC as shown on the screen with the notch facing up and pull the lever down
 
+**Beware 5V ICs only!**
+
 There are two modes of operation:
-- Auto tries to detect what kind of IC is inserted. This is helpful if you have no
+- **Auto** tries to detect what kind of IC is inserted. This is helpful if you have no
   markings on the IC. To use it you'll have to adjust the number of pins of the IC
   with the **Pins** Button and then hit **Auto**. The IC Tester will match it against
   the known ICs and give you the results. You can press the touch screen to go through
   each found match.
 
-- Manual will check an inserted IC against the tests stored in the database.
+- **Manual** will check an inserted IC against the tests stored in the database.
   Hit **Manual** and insert the plain IC number without the family code here
   (an 74HC06 should be entered as *7406*) and hit **OK**. This will run the test and
   display the results. You can savely change the IC and retest again, if you have a
