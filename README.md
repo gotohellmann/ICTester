@@ -56,10 +56,12 @@ If you like it please leave a ⭐!
 - Copy the database (data/chipdb.txt) into the root folder of the SDCard (chipdb.txt)
 - Plug the SDCard into the TFT shield and connect the Arduino Mega to the computer  
 - Start the Arduino IDE
-- Check you have the following Librarys installed (Tools -> Library Manager):
+- Check you have the following librarys installed (Tools -> Library Manager):
   - **MCUFRIEND_kbv**  (try the **Adafruit_ILI9341** if the display doesn't work)
-  - **Adafruit_GFX**
+  - **Adafruit GFX Library**  (included the Bus Library as well)
   - **Adafruit Touchscreen**
+ - Install the _patched_ SD library from this repository (Sketch -> Library -> .ZIP )
+  - **SD_patched** (download from above, includes Arduino Mega Software SPI fix)
 - Open the **IC_Tester_v2.5.ino** 
 - Select the proper **Arduino Mega 2560** under Tools -> Board -> Arduino AVR Boards
 - Select the correct COM port for upload
@@ -95,6 +97,6 @@ There are two modes of operation:
   library could help.
 
 - SD Card Error:
-  The chipdb.txt couldn't be read. Either the file is corrupt (copy it again), or an older SPI 
-  library interfers with the the TFT Touch Display shield. If this is the case, either upgrade
-  or patch the library. Infos here: https://forum.arduino.cc/index.php?topic=487918.0
+  The chipdb.txt couldn't be read. Either the file is corrupt (copy it again), the card to big or an older SPI 
+  library interfers with the the TFT Touch Display shield. If this is the case, install the SD_patched Library
+  from this repository above
