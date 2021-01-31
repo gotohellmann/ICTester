@@ -52,6 +52,7 @@ If you like it please leave a ⭐!
 
 ### Setting Up and Programming
 
+- Format the SDCard as FAT/FAT32 Filesystem
 - Copy the database (data/chipdb.txt) into the root folder of the SDCard (chipdb.txt)
 - Plug the SDCard into the TFT shield and connect the Arduino Mega to the computer  
 - Start the Arduino IDE
