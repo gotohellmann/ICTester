@@ -88,6 +88,8 @@ If you like it please leave a ⭐!
   (an 74HC06 should be entered as *7406*) and hit **OK**. This will run the test and
   display the results. You can savely change the IC and retest again, if you have a
   few of the same type to test.
+  
+  The manual mode can also be used to get the pinout of an IC. Just leave the socket empty.
 
 ### Troubleshooting
 
@@ -97,6 +99,13 @@ If you like it please leave a ⭐!
   library could help.
 
 - SD Card Error:
-  The chipdb.txt couldn't be read. Either the file is corrupt (copy it again), the card to big or an older SPI 
+  The chipdb.txt couldn't be read. Either the file is corrupt (copy it again),  the card formated
+  with the wrong filesystem (format it with FAT), the card to big (best 4GB or below) or an older SPI 
   library interfers with the the TFT Touch Display shield. If this is the case, install the SD_patched Library
-  from this repository above
+  from this repository above.
+
+### Help needed!
+
+- I do not have all possible TTL 74** or CMOS 4*** ICs here for testing. So if you'll find one, that shows up
+  as "*** not found" consider sending it in or add it to the chipdb.txt and test it. The format is pretty
+  straight forward.
