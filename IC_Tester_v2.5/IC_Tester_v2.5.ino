@@ -63,7 +63,7 @@ Adafruit_GFX_Button buttons[12];
 #define chipSelect 10
 #define SOFTWARE_SPI 1
 #include <SPI.h>
-#include <SD.h>
+#include <SD_patched.h>
 
 //Pin Definitions
 const int ledr = 50;
