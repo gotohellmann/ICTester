@@ -69,14 +69,14 @@ If you like it please leave a ⭐!
 
 ### Usage
 
+  **Beware: This Tester is for testing 5V ICs only!**
+
 - Start the IC Tester and marvel at the startup screen 😏 
 - Touch to enter main screen
 - Make sure the ZIF socket lever is up
 - Insert IC as shown on the screen with the notch facing up and pull the lever down
 
-**Beware 5V ICs only!**
-
-There are two modes of operation:
+**There are two modes of operation:**
 - **Auto** tries to detect what kind of IC is inserted. This is helpful if you have no
   markings on the IC. To use it you'll have to adjust the number of pins of the IC
   with the **Pins** Button and then hit **Auto**. The IC Tester will match it against
