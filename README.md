@@ -60,7 +60,7 @@ If you like it please leave a ⭐!
   - **MCUFRIEND_kbv**  (try the **Adafruit_ILI9341** if the display doesn't work)
   - **Adafruit GFX Library**  (included the Bus Library as well)
   - **Adafruit Touchscreen**
- - Install the _patched_ SD library from this repository (Sketch -> Library -> .ZIP )
+- Install the _patched_ SD library from this repository (Sketch -> Library -> .ZIP )
   - **SD_patched** (download from above, includes Arduino Mega Software SPI fix)
 - Open the **IC_Tester_v2.5.ino** 
 - Select the proper **Arduino Mega 2560** under Tools -> Board -> Arduino AVR Boards
