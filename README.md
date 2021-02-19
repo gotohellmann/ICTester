@@ -15,7 +15,25 @@ https://github.com/akshaybaweja/Smart-IC-Tester
 
 If you like it please leave a ⭐!
 
+For hardware requirements and libraries used see below
+
+
 ### Versions:
+
+**Version 2.6**
+----------------------------------------------
+- update: updated chipdb.txt with 150+ new ICs
+          and checked in new test vectors
+- new:    version string for chipdb.txt
+- new:    Z tag in chipdb.txt for high-Z check
+          needs PCB rework for 1M pull-downs,
+          checks not implemented in Version 2.6
+- new:    NOVECTORS tag for ICs without tests
+          this will only display the IC in manual
+- bugfix: Auto: sometimes displays wrong IC pinout    
+- update: new CLK code for multiple clockpins
+          (thanks, @Hans Huber)
+- new:    Auto: flip result pages back and fore
 
 **Version 2.5**
 ----------------------------------------------
