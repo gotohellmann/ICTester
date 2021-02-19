@@ -80,7 +80,7 @@ For hardware requirements and libraries used see below
   - **Adafruit Touchscreen**
 - Install the _patched_ SD library from this repository (Sketch -> Library -> .ZIP )
   - **SD_patched** (download from above, includes Arduino Mega Software SPI fix)
-- Open the **IC_Tester_v2.5.ino** 
+- Open the **IC_Tester_v2.6.ino** 
 - Select the proper **Arduino Mega 2560** under Tools -> Board -> Arduino AVR Boards
 - Select the correct COM port for upload
 - Compile and Upload the sketch
