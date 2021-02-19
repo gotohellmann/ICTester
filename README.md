@@ -32,7 +32,7 @@ For hardware requirements and libraries used see below
           this will only display the IC in manual
 - bugfix: Auto: sometimes displays wrong IC pinout    
 - update: new CLK code for multiple clockpins
-          (thanks, @Hans Huber)
+          (thanks, @Hans Hübner)
 - new:    Auto: flip result pages back and fore
 
 **Version 2.5**
